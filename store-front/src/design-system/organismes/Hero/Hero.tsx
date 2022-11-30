@@ -53,18 +53,18 @@ export const Hero: FC<HeroProps> = ({ ...props }) => {
             <Grid item xs={12} md={5} pr={isMobile ? 0 : 5}>
                 <FlexSpacer minHeight={4} />
 
-                <Typography size="h1" weight="SemiBold" sx={{ pt: 4 }}>
-                    {t('home.hero.headline')}
+                <Typography size="h1" weight="SemiBold" sx={{ pt: 4 }} >
+                    Tezos India Marketplace
                 </Typography>
 
                 <Typography size="h3" weight="Light" sx={{ pt: 2, mb: 1 }}>
-                    {t('home.hero.description_1')}
+                    This is a demo of Kanva.cf
                 </Typography>
 
                 <Typography
                     size="h5"
                     weight="Light"
-                    color="#C4C4C4"
+                    
                     sx={{ pt: 1, mb: 1 }}
                 >
                     {t('home.hero.description_2')}
@@ -82,7 +82,8 @@ export const Hero: FC<HeroProps> = ({ ...props }) => {
             </Grid>
 
             {/* HERO: Featured Image */}
-            <GridStyled item xs={12} md={7} px={0} sx={{ display: 'flex' }}>
+            
+            {/* <GridStyled item xs={12} md={7} px={0} sx={{ display: 'flex' }}>
                 {
                     //Render Skeleton if image not loading
                     props.sliderLoading ? (
@@ -131,7 +132,7 @@ export const Hero: FC<HeroProps> = ({ ...props }) => {
                         </Card>
                     )
                 }
-            </GridStyled>
+            </GridStyled> */}
         </Grid>
     );
 };

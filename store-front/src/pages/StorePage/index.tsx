@@ -387,9 +387,9 @@ const StorePage = () => {
                     <Typography
                         size="h1"
                         weight="SemiBold"
-                        sx={{ justifyContent: 'center' }}
+                        sx={{ justifyContent: 'left' }}
                     >
-                        The Store
+                        Explore
                     </Typography>
                 )}
 
